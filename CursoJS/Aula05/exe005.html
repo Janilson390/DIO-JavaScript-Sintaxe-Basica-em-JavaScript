@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Meu primeiro script</title>
+        <style>
+            body {
+                background-color: rgb(137, 137, 197);
+                color: white;
+                font: normal 20pt Arial;
+            }
+    
+            h1 {
+                color: rgb(211, 211, 147);
+            }
+        </style>
+    </head>
+    <body>
+        <h1>Tipos Primitivos JavaScript</h1>
+        <script>
+            var variavel = window.prompt('Digite qualquer coisa!')
+            window.alert('O valor digitado é um tipo ' + typeof(variavel))
+
+            var num = 5
+            var num2 = 5.6
+            var palavra = "Janilson Florencio"
+            var boleano = false
+            var nulo = null 
+            let nan1 = NaN    
+
+            window.alert('O valor da variavel num é do tipo ' + typeof(num))
+            window.alert(' valor da variavel num2 é do tipo ' + typeof(num2))
+            window.alert(' valor da variavel palavra é do tipo ' + typeof(palavra))
+            window.alert(' valor da variavel boleano é do tipo ' + typeof(boleano))            
+            window.alert(' valor da variavel nulo é do tipo ' + typeof(nulo))
+            window.alert(' valor da variavel nan1 é do tipo ' + typeof(nan1))
+        </script>    
+    </body>
+    </html>
